@@ -1,0 +1,9 @@
+main:
+  - title: "Blog"
+    url: /blog/
+  - title: "Services"
+    url: /services/
+  - title: "Contact"
+    url: /contact
+  - title: "External Link"
+    url: https://google.com
