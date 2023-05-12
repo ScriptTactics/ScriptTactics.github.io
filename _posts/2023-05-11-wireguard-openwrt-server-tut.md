@@ -79,7 +79,7 @@ Option 2: You can generate all the keys on the server, show a QR code and then t
 
 
 ## Option 1
-some text
+This option will require sending keys between both the server and the peer (in this case Android device)
 
 ## Option 2
 
@@ -107,3 +107,4 @@ Then go to Network -> Interfaces -> wg0 -> edit -> peers -> edit peers
 3. After you’ve successfully received the configs you will need to delete the private key from the previous screen.
 
 ## Android Config Peer 2
+
