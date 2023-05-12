@@ -136,29 +136,29 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/script_tactics"
 
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube-square"
       url: https://www.youtube.com/@Script_Tactics
 
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/ScriptTactics"
-
     - label: "Patreon"
       icon: "fab fa-fw fa-patreon"
       url: "https://www.patreon.com/script_tactics"
 
-    - label: "YouTube"
-      icon: "fab fa-fw fa-bitbucket"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
       # url:
+    # - label: "Discord"
+    #   icon: "fab fa-fw fa-discord"
+    #   url: "https://discord.com"
 
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/script_tactics"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ScriptTactics"
+
 
 
 # Reading Files
