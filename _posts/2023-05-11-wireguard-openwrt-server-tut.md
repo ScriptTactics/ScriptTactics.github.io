@@ -81,6 +81,27 @@ Option 2: You can generate all the keys on the server, show a QR code and then t
 ## Option 1
 This option will require sending keys between both the server and the peer (in this case Android device)
 
+## Manual Config
+![Peer 1 OpenWRT](/assets/images/Peer1.PNG)
+1. Set Peer Name
+2. Copy `Public Key` from `Public Key` generated in the phone app.
+3. Click `Generate preshared key` and send this to the Peer.
+4. Allowed IPs: Set this to a unique value within the server subnet range.
+5. Save
+
+## Option 1 Android
+![Option 1 Android](/assets/images/option1Droid.png)
+1. Name: OpenWRT
+2. Click the refresh Icon to generate the `public/private` key pair. Send the `public key` to the server so it can be inserted into the Peer config. See Slide 27 #2
+3. Addresses:  Set this to the same value populated in the peer config on the server. See Slide 27 #4
+4. Click Add Peer
+![Option 1 Android Peer](/assets/images/option1DroidPeer.png)
+
+5. Copy the `server public key` and paste it here
+6. Pre-Shared Key. Copy the generated pre-shared key from the peer config on the server. Slide 27 #3
+7. Endpoint: `public IP` of server and the port specified by the server: 51820 is the default. 
+8. Allowed IPs: `0.0.0.0/0, ::/0` → All IP’s
+
 ## Option 2
 
 Install qrencode
@@ -107,4 +128,16 @@ Then go to Network -> Interfaces -> wg0 -> edit -> peers -> edit peers
 3. After you’ve successfully received the configs you will need to delete the private key from the previous screen.
 
 ## Android Config Peer 2
+![option2-qr](/assets/images/option2Droid.PNG)
+![option2-peer](/assets/images/option2-droidPeer.png)
+1. After scanning the QR code you should see a config similar to this.
+2. You may have to add the Addresses here. It should be an IP within the subnet range specified in the server. 
 
+Ex: 10.0.0.2/32. (It should be unique per peer)
+3. All other fields should be pre-populated.
+
+# Verify Connection
+
+1. You may have to restart the wg0 interface in order for a connection to get established. 
+2. Once you restart the interface click the toggle button on the Android app and see if a handshake has been created.
+3. The `rx` and `tx` fields should start to increment
