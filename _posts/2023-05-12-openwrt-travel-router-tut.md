@@ -7,7 +7,7 @@ toc_icon: "cog"
 tags: openwrt wireguard vpn travel-router
 categories: self-hosted
 header:
-  teaser: /assets/images/travelRouter.PNG
+  teaser: /assets/images/travelRouter.png
 ---
 {% include video id="" provider="youtube" %}
 

@@ -7,7 +7,7 @@ toc_icon: "cog"
 tags: pfsense wireguard vpn travel-router
 categories: self-hosted
 header:
-  teaser: /assets/images/pfsense.PNG
+  teaser: /assets/images/pfSense.PNG
 ---
 {% include video id="" provider="youtube" %}
 
