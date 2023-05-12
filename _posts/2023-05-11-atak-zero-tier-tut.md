@@ -39,7 +39,7 @@ You should then see the screen above. Enter the 16hex character network key for 
 Then click add.
 
 ## ZeroTier Auth
-After your phone as connected to the network you will have to authorize the user. Go back to the ZeroTier web interface and give the peer a name/description and click the checkbox to authorize them.
+After your phone has connected to the network you will have to authorize the user. Go back to the ZeroTier web interface and give the peer a name/description and click the checkbox to authorize them.
 ![Authorize User](/assets/images/Authorize-user.PNG)
 
 You will have to repeat this process for the WinTAK user and any other ATAK user you plan on adding to the network.
