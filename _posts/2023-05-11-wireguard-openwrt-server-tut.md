@@ -4,6 +4,10 @@ author_profile: false
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
+tags: openwrt wireguard vpn
+categories: self-hosted
+header:
+  teaser: /assets/images/openwrt.PNG
 ---
 
 {% include video id="TQxwqY-m30Y" provider="youtube" %}

@@ -4,6 +4,10 @@ author_profile: false
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
+tags: vps wireguard vpn ubuntu
+categories: self-hosted
+header:
+  teaser: /assets/images/vps.PNG
 ---
 {% include video id="AQnf-f5QLHQ" provider="youtube" %}
 
