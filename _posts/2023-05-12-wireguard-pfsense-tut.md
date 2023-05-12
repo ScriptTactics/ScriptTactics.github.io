@@ -9,6 +9,9 @@ categories: self-hosted
 header:
   teaser: /assets/images/pfSense.PNG
 ---
+
+# PFsense Wireguard Server
+
 {% include video id="" provider="youtube" %}
 
 # Install Wireguard Package

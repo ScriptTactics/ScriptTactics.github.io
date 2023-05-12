@@ -9,10 +9,10 @@ categories: self-hosted
 header:
   teaser: /assets/images/openwrt.PNG
 ---
+# OpenWRT Wireguard Server
 
 {% include video id="TQxwqY-m30Y" provider="youtube" %}
 
-# OpenWRT Wireguard Server
 ## Update Dependencies
 ```bash
 opkg update

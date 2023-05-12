@@ -9,9 +9,9 @@ categories: self-hosted
 header:
   teaser: /assets/images/travelRouter.png
 ---
-{% include video id="" provider="youtube" %}
-
 # OpenWRT Wireguard Travel Router
+
+{% include video id="" provider="youtube" %}
 
 # Pre-Requisite
 The travel router will be a Wireguard Peer, so you will need an existing Wireguard server setup.

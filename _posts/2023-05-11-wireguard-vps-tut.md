@@ -9,9 +9,9 @@ categories: self-hosted
 header:
   teaser: /assets/images/vps.PNG
 ---
-{% include video id="AQnf-f5QLHQ" provider="youtube" %}
-
 # VPS Wireguard Server
+
+{% include video id="AQnf-f5QLHQ" provider="youtube" %}
 
 ## Update and Install Wireguard
 
