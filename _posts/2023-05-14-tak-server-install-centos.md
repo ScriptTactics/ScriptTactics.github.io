@@ -101,14 +101,11 @@ This will generate the rpm image for you.
 
 # Install from Downloaded .rpm
 
+scp of ftp or sftp the downloaded .rpm file from tak.gov to your server.
 
+-------------------------------------------------
 
-The following steps are shared among the two approaches.
-
-# Install RPM
-
-Next navigate to the following directory
-
+If you built from source run do the following:
 
 ```bash
 cd Server/src/takserver-package/build/distributions
@@ -125,8 +122,8 @@ Run
 ```bash
 sudo yum install takserver-4.5-RELEASE72.noarch.rpm
 ```
-to install the server.
 
+-----------------------------------------------
 
 # Setup DB
 
