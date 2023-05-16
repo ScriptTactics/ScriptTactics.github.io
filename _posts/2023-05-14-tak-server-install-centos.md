@@ -13,7 +13,7 @@ header:
 
 There are two options to install TAK server.
 
-1. Install from source using the source code on [GitHub](https://github.com/TAK-Product-Center/Server)
+1. Install from source using the source code on [GitHub](https://github.com/TAK-Product-Center/Server). Although the GitHub source code is far behind the packaged release version on tak.gov. These steps may or may not work depending on when you view this tutorial.
 2. Download the .rpm/.deb files from [tak.gov](https://tak.gov/)
 
 
@@ -107,7 +107,7 @@ scp of ftp or sftp the downloaded .rpm file from tak.gov to your server.
 
 -------------------------------------------------
 
-**If you built from source run do the following:**
+**If you built from source do the following:**
 
 ```bash
 cd Server/src/takserver-package/build/distributions
@@ -135,7 +135,7 @@ There is a db install script pre-made that you will have to run.
 
 
 ```bash
-sudo ./opt/tak/db-utils/takserver-setup-db.sh
+sudo /opt/tak/db-utils/takserver-setup-db.sh
 ```
 
 
