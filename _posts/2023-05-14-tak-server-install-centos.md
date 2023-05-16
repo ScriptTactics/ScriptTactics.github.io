@@ -103,9 +103,11 @@ This will generate the rpm image for you.
 
 scp of ftp or sftp the downloaded .rpm file from tak.gov to your server.
 
+`sftp <user>@<tak-server-ip>` 
+
 -------------------------------------------------
 
-If you built from source run do the following:
+**If you built from source run do the following:**
 
 ```bash
 cd Server/src/takserver-package/build/distributions
@@ -117,13 +119,15 @@ In here you should see the server rpm:
 
 At the time of writing this my rpm is `takserver-4.5-RELEASE72.noarch.rpm`
 
-Run 
+-----------------------------------------------
+
+Both approaches follow the same steps:
+
+Then install the .rpm by running the following command.
 
 ```bash
 sudo yum install takserver-4.5-RELEASE72.noarch.rpm
 ```
-
------------------------------------------------
 
 # Setup DB
 
@@ -159,10 +163,10 @@ sudo su tak
 
 Then create env variables:
 ```bash
-export STATE=NY
-export CITY=NYC
-export ORGANIZATION=my-organizaton
-export ORGANIZATIONAL_UNIT=my-unit
+export STATE=<state>
+export CITY=<city>
+export ORGANIZATION=<my-organizaton>
+export ORGANIZATIONAL_UNIT=<my-unit>
 ```
 
 Navigate to 
@@ -174,8 +178,7 @@ Then run
 ```bash
 ./makeRootCa.sh
 ```
-
-Give a name for your CA: example-name
+It will ask you to give a name for your CA: `example-name`
 
 Create a server certificate:
 
@@ -199,20 +202,29 @@ Generate an admin cert to gain access to the admin UI.
 ```bash
 ./makeCert.sh client admin
 ```
+## Verify Certs
+ In the `/opt/tak` directory open up the `coreConfig.xml`.
 
+You should see a `<security>` section like this. Verify that the `keystoreFile` and `trustoreFile` match the output from the `generate CA` step.
+ ```xml
+    <security>
+        <tls keystore="JKS" keystoreFile="certs/files/takserver.jks" keystorePass="atakatak" truststore="JKS" truststoreFile="certs/files/truststore-root.jks" truststorePass="atakatak" context="TLSv1.2" keymanager="SunX509"/>
+    </security>
+ ```
 
 ## Reload
+Stay logged in as the tak user when completing these commands
 
 After you have created the certs restart the TAK Server.
 
 ```bash
-sudo systemctl restart takserver
+systemctl restart takserver
 ```
 
 Then authorize the admin cert.
 
 ```bash
-sudo java -jar /opt/tak/utils/UserManager.jar certmod -A /opt/tak/certs/files/admin.pem
+java -jar /opt/tak/utils/UserManager.jar certmod -A /opt/tak/certs/files/admin.pem
 ```
 
 
@@ -221,7 +233,6 @@ Also, the generated CA trustores and certs will be here:
 ```bash
 /opt/tak/certs/files
 ```
-
 
 
 # Firewall
