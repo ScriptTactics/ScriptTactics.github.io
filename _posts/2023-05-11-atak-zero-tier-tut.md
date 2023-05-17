@@ -20,7 +20,7 @@ Also install [ZeroTier](https://play.google.com/store/apps/details?id=com.zeroti
 Create an account on the [ZeroTier](https://www.zerotier.com/) website.
 
 Then create a new network.
-![Create new network](/assets/images/createZTNetwork.PNG)
+![Create new network](/images/createZTNetwork.PNG)
 
 ## Network Config
 ![Network Config](/assets/images/ztNetworkConfig.PNG)
