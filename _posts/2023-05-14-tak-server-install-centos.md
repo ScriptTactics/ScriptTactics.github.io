@@ -7,7 +7,7 @@ toc_icon: "cog"
 tags: tak atak
 categories: self-hosted atak tak
 header:
-  teaser: /assets/images/pfSense.PNG
+  teaser: /assets/images/takServer.png
 ---
 # TAK Server Options
 
