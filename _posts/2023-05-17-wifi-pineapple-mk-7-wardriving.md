@@ -5,9 +5,9 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
 tags: wifi kismet mk7 pineapple openwrt hak5
-categories: self-hosted
+categories: hacking wardriving
 header:
-  teaser: /assets/images/vps.PNG
+  teaser: /assets/images/pineapple.jpg
 ---
 # Pineapple Mk7
 
