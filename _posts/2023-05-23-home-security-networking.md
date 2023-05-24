@@ -301,7 +301,7 @@ Rules:
 
 So what do these rules do?
  1. Each VLAN should not be able to access the firewall itself. We want to reserve access to only the trusted or management VLAN's that we plan on setting up.
- 2. Blocks access to all private network addresses. [RFC1918](https://www.rfc-editor.org/rfc/rfc1918) is a specification for internal IP addresses. By blocking access to those ranges any device that is connected VLAN cannot communicate to a different VLAN. Ex: VLAN 1 can only talk to VLAN 1. VLAN 2 cannot talk to VLAN 1, etc.
+ 2. Blocks access to all private network addresses. [RFC1918](https://www.rfc-editor.org/rfc/rfc1918) is a specification for internal IP addresses. By blocking access to those ranges any device that is connected to one VLAN cannot communicate to a different VLAN. Ex: VLAN 1 can only talk to VLAN 1. VLAN 2 cannot talk to VLAN 1, etc.
  3. Allow internal DNS. Since we setup the firewall to be our DNS resolver, we need to allow traffic to it in order to get internet access.
     - This rule may differ if you are using different software. You can omit this rule entirely if you are unable to access the internet.
  4. Blocks external DNS. Ex: 8.8.8.8 (Google). By blocking External DNS we can prevent devices from communicating with a DNS server that we did not specify.
