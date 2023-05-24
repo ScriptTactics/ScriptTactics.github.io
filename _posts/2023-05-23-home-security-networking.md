@@ -282,9 +282,9 @@ Repeat this process for each VLAN you have. When you are done you should have th
 
 | VLAN        | ID            | Description | IP Range| DHCP | DNS |
 |-------------|-------------- |------------ |-------- | -----| --- | 
-| IoT         | 100         | IoT VLAN | 192.168.100.1/24 |192.168.100.1 | 192.168.100.1 |
-| Work         | 101         | Work VLAN| 192.168.101.1/24 |192.168.101.1 | 192.168.101.1|
-| Security         | 102         | Security VLAN| 192.168.102.1/24 |192.168.102.1 | 192.168.102.1 |
+| IoT         | **100**         | IoT VLAN | 192.168.**100**.1/24 |192.168.**100**.1 | 192.168.**100**.1 |
+| Work         | **101**         | Work VLAN| 192.168.**101**.1/24 |192.168.**101**.1 | 192.168.**101**.1|
+| Security         | **102**         | Security VLAN| 192.168.**102**.1/24 |192.168.**102**.1 | 192.168.**102**.1 |
 
 Once each VLAN is assigned to an interface you will now need to setup firewall rules.
 
