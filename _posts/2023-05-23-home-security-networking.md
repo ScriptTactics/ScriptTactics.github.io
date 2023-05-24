@@ -455,10 +455,10 @@ So lets take a look at how our switch config will differ in this new setup.
 | ------- | --------  | ------------ | ------------ | ------------- |
 | 1       | Default   | 1-8          | -            | 1-8           |
 | 100     | IoT       | 1-6          | 1-6          | -             |  
-| 101     | Work      | 1,2,7        | 1,2,7        | -             |
+| 101     | Work      | 1,7          | 1,7          | -             |
 | 102     | Security  | 1,2,8        | 1,2,8        | -             |
 
-Now all the VLAN's contain port #2 which gets connected to the WAP.
+Now the IoT and Security VLAN contain port #2 which gets connected to the WAP.
 
 Then the PVID setup would be as follows
 
