@@ -474,7 +474,9 @@ Then the PVID setup would be as follows
 | 8       | 102       |
 
 
-After you've connected the WAP to the switch you will have to configure on your Wi-Fi access point the different VLANs. Typically you can create a new network off of the VLAN ID. You will then have to setup a password and SSID. This will differ based on your network device.
+After you've connected the WAP to the switch you will have to configure the different VLANs on your Wi-Fi access point. Typically you can create a new network off of the VLAN ID. You will then have to setup a password and SSID. This will differ based on your network device.
+
+
 
 **Make sure you make a backup of your configuration and document where cables go before you begin to make changes to your network**.
 
