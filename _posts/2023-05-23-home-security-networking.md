@@ -317,6 +317,7 @@ Table Key:
  - "*" - anything
 
 **IoT**
+
 | Rule  | Protocol | Source           | Port | Destination      | Port | Description            |
 |-------|----------|------------------|------|------------------|------|------------------------|
 | Block | IPv4     | *                | *    | This Firewall    | *    | Block Firewall Access  |
@@ -327,6 +328,7 @@ Table Key:
 
 
 **Work**
+
 | Rule  | Protocol | Source           | Port | Destination      | Port | Description            |
 |-------|----------|------------------|------|------------------|------|------------------------|
 | Block | IPv4     | *                | *    | This Firewall    | *    | Block Firewall Access  |
@@ -336,6 +338,7 @@ Table Key:
 | Allow | IPv4     | *                | *    | *                | *    | Allow All Traffic      |
 
 **Security**
+
 | Rule  | Protocol | Source           | Port | Destination      | Port | Description            |
 |-------|----------|------------------|------|------------------|------|------------------------|
 | Block | IPv4     | *                | *    | This Firewall    | *    | Block Firewall Access  |
