@@ -351,7 +351,7 @@ Table Key:
 
 The example firewall rules above should give you an easy guideline to get started. Each software is different in how they are able to setup firewall rules, but the same principles should apply across the board.
 
- # Switch Configuration
+# Switch Configuration
 
 There are a few terms we need to get familiar with when it comes to switches.
 
@@ -361,7 +361,7 @@ There are a few terms we need to get familiar with when it comes to switches.
 - PVID
 
 
-Tagged ports: usually “trunked” connection. Connect 2 switches together.*
+Tagged ports: usually “trunked” connection. Connect 2 switches together. Also they "tag" the VLAN ID/Tag to the packet that is getting sent across the port to its destination.
 
 Untagged: no VLAN identifier is attached to the packet.*
 
