@@ -247,7 +247,7 @@ We will need to modify it to match how we setup our VLAN
 1. We will have to enable the interface
 2. We want to change the name of the interface from the interface name to the VLAN name
 3. Set the IPv4 Config type to Static. This way we can manually assign an IP address range to this VLAN. For this VLAN we will set the IP range to `192.168.100.1/24`. 
-    - /24 is [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing) and means IP addresses from `192.168.100.1-192.168.100.255`. Depending on how many devices you plan on having on your network you can reduce the number of allowed IP address by changing the number after the slash `/`. But refer to the CIDR documentation to make sure you understand what to do.
+    - /24 is [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing) and means IP addresses from `192.168.100.0-192.168.100.256`. Depending on how many devices you plan on having on your network you can reduce the number of allowed IP address by changing the number after the slash `/`. But refer to the CIDR documentation to make sure you understand what to do.
 
 To make things simple we can make the 3rd octet of the IP address range the same as the VLAN tag.
 
