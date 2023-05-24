@@ -140,6 +140,7 @@ A list of some basic hardware required:
 5. **Wireless Access Points (WAPs)** - having separate WAP's will make segmenting your Wi-Fi easier.
 
 The table below will contain a list of devices from least expensive to most expensive.
+
 | Price Ranges    | Router                                                                                                            | Switch                                                                                                                                                                                                                                                                                        | WAP                                                                                                                                                                                                                                                                         |
 |-----------------|-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Least Expensive | [TpLink Archer A7](https://www.amazon.com/TP-Link-AC1750-Smart-WiFi-Router/dp/B079JD7F7G/ref=sr_1_4?crid=25Q4RB6CQ9JIB&keywords=router&qid=1684863269&sprefix=router%2Caps%2C96&sr=8-4) | [TP-Link 8 Port Switch](https://www.amazon.com/Ethernet-Unmanaged-Shielded-Replacement-TL-SG108E/dp/B00K4DS5KU/ref=sr_1_3?keywords=managed%2Bswitch&qid=1684413371&sr=8-3&th=1)  | [TP Link EAP225-V3](https://www.amazon.com/TP-Link-EAP225-V3-Wireless-Supports/dp/B0781YXFBT/ref=sr_1_8?crid=3GL7EH6VHW1CJ&keywords=wireless+access+point&qid=1684414229&sprefix=wireless+access+point%2Caps%2C76&sr=8-8&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc) |
@@ -204,6 +205,7 @@ Then we repeat the process until we have all the VLAN's configured
 ![Repeat VLAN Setup](/assets/images/home-security/networking/RepeatVLANSetup.PNG)
 
 Here we have the following:
+
 | VLAN        | Tag            | Description |
 |-------------|------------------- |------------------- |
 | IoT         | 100         | IoT VLAN |
