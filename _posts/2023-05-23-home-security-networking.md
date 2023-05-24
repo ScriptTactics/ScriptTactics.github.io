@@ -395,6 +395,7 @@ Here we are setting the ports to be untagged since the devices that we are conne
 Repeat the process for the other VLANS we configured
 
 ![VLANS](/assets/images/home-security/networking/VLANExpanded.png)
+
 | VLAN ID | VLAN Name | Member Ports | Tagged Ports | Untagged Ports|
 | ------- | --------  | ------------ | ------------ | ------------- |
 | 1       | Default   | 1-8          | -            | 1-8           |
@@ -404,6 +405,7 @@ Repeat the process for the other VLANS we configured
 
 
 Then the PVID setup would be as follows
+
 | Port    | PVID      | 
 | ------- | --------  |
 | 1       | 1         |
@@ -457,6 +459,7 @@ So lets take a look at how our switch config will differ in this new setup.
 Now all the VLAN's contain port #2 which gets connected to the WAP.
 
 Then the PVID setup would be as follows
+
 | Port    | PVID      | 
 | ------- | --------  |
 | 1       | 1         |
