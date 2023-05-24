@@ -1,5 +1,5 @@
 ---
-title: Home Security: Networking
+title: Home Security Series - Networking
 author_profile: false
 toc: true
 toc_label: "Table of Contents"
@@ -7,7 +7,7 @@ toc_icon: "cog"
 tags: pfsense security vpn network
 categories: security
 header:
-  teaser: 
+  teaser: assets/images/home-security/networking/network.jpg 
 ---
 
 # Home Security Series
