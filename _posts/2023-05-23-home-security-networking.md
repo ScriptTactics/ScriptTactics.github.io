@@ -390,11 +390,7 @@ Then we will have the following config:
 
 The table above is a generic configuration setup for TPLink switch. However, much of the information here can be applied to other switches. 
 
-Here we are setting the ports to be untagged since the devices that we are connecting are not VLAN aware. This means they do not know what to do if there's an additional parameter in the packet coming to them. In this case the VLAN ID is added to the packet. Typically, you would only want to tag the port in a few conditions:
- - connecting 2 switches together
- - connecting WAP's that are capable of VLAN's
- - connecting devices that are VLAN aware
-
+Here we are setting the ports to be tagged since the devices that we are connecting are VLAN aware. Also, it specifies that the traffic coming over those ports should be going to specific VLANs. We also add Port 1 to the IoT VLAN so that the IoT VLAN can reach back to the main router/firewall/modem to get internet access.
 
 Repeat the process for the other VLANS we configured
 
