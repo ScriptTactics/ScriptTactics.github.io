@@ -279,7 +279,7 @@ Each VLAN will need a DHCP server to give out IP addresses to devices that are c
 Repeat this process for each VLAN you have. When you are done you should have the following setup.
 
 | VLAN        | ID            | Description | IP Range| DHCP | DNS |
-|-------------|------------------- |------------------- |----- | ------|  ----| 
+|-------------|-------------- |------------ |-------- | -----| --- | 
 | IoT         | 100         | IoT VLAN | 192.168.100.1/24 |192.168.100.1 | 192.168.100.1 |
 | Work         | 101         | Work VLAN| 192.168.101.1/24 |192.168.101.1 | 192.168.101.1|
 | Security         | 102         | Security VLAN| 192.168.102.1/24 |192.168.102.1 | 192.168.102.1 |
