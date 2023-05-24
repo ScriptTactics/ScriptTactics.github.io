@@ -348,7 +348,8 @@ Table Key:
 | Block | IPv4     | *                | *    | *                | 53   | Block External DNS     |
 | Block | IPv4     | 192.168.102.1/24 | *    | RFC1918 Networks | *    | Block RFC1918 Networks |
 | Allow | IPv4     | *                | *    | *                | *    | Allow All Traffic      |
- 
+
+The example firewall rules above should give you an easy guideline to get started. Each software is different in how they are able to setup firewall rules, but the same principles should apply across the board.
 
  # Switch Configuration
 
