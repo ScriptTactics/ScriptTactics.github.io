@@ -255,9 +255,9 @@ Ex:
 
 | VLAN        | ID            | Description | IP Range|
 |-------------|-------------- |------------ |-------- |
-| IoT         | 100         | IoT VLAN | 192.168.100.1/24 |
-| Work         | 101         | Work VLAN| 192.168.101.1/24 |
-| Security         | 102         | Security VLAN| 192.168.102.1/24 |
+| IoT         | 100         | IoT VLAN | 192.168.**100**.1/24 |
+| Work         | 101         | Work VLAN| 192.168.**101**.1/24 |
+| Security         | 102         | Security VLAN| 192.168.**102**.1/24 |
 
 
 ### DHCP Server
