@@ -432,12 +432,14 @@ The previous diagrams details connections that were directly wired to a network 
 
 So here we still have our main connection coming in from the ISP and connecting to our Router/Firewall/modem. We also still have our switch and our main VLAN's details out. However we added an additonal device here. This time we have a Wireless Access Point in the mix.
 
-Starting from the left youn can see we still have our IoT VLAN with the following devices:
+Starting from the left you can see we still have our IoT VLAN with the following devices:
  - Game console
  - Smart TV
  - Printer/3D printer
  - Game console
+
 These devices are hard wired to the switch. Hence the 4 connections. The next 3 devices are nested inside the VLAN but are not hard wired.
+
  - Smart phone
  - Smart phone
  - Laptop
