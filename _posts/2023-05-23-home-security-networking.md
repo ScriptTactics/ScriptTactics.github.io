@@ -380,6 +380,7 @@ From the switch we will have the following
 - Port 4 is connected to computer 2
 - Port 5 is connected to computer 3
 - Port 6 is connected to computer 4
+
 Then we will have the following config:
 
 | VLAN ID | VLAN Name | Member Ports | Tagged Ports | Untagged Ports|
