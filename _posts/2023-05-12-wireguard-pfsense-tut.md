@@ -12,7 +12,7 @@ header:
 
 # PFsense Wireguard Server
 
-{% include video id="" provider="youtube" %}
+{% include video id="ralWaBL98pU" provider="youtube" %}
 
 # Install Wireguard Package
 Go to System → Package Manager → Available Packages.
