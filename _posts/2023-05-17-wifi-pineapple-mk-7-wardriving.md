@@ -85,6 +85,24 @@ Copy this script to your Wifi Pineapple. After you've copied it over and your An
 
 `./<filename>` to run the script
 
+# Exfiltration
+
+Once you're done running the script 2 files will be generated in the `kismetlogs` folder on the pineapple.
+- YYYYMMDD-15-10-31-1.wiglecsv
+- YYYYMMDD-15-10-31-1.kismet
+
+You can open the wiglecsv file in any excel or csv application. First remove the top line in the file:
+```csv
+WigleWifi-1.4,appRelease=Kismet202208R1,model=Kismet,release=2022.08.R1,device=kismet,display=kismet,board=kismet,brand=kismet
+```
+
+Then import it into the excel,csv application. The column headers should be:
+
+```bash
+MAC,SSID,AuthMode,FirstSeen,Channel,RSSI,CurrentLatitude,CurrentLongitude,AltitudeMeters,AccuracyMeters,Type
+```
+
+You can further extract data from this file by writing a python script to parse the CSV and group the data.
 ## Kismet UI
 If you want to modify other settings in Kismet you can start the service by typing:
 ```bash
