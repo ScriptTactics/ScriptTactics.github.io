@@ -39,7 +39,7 @@ There are 2 options that you can use for your GPS module.
 
 Follow the steps belew to setup wardriving with a USB GPS device.
 
-### GPSd
+## GPSd
 
 Connect your GPS USB device to your pineapple and verify it is recognized by typing:
 ```bash
@@ -123,11 +123,11 @@ Copy this script to your Wifi Pineapple. After you've copied it over and your An
 `chmod +x <filename>` to make the script executable.
 
 `./<filename>` to run the script
-## Option 2
+# Option 2
 
 Follow the steps below to setup wardriving with an Android Phone.
 
-### GPSd Forwarder
+## GPSd Forwarder
 ---
 1. Download GPSd Forwarder for Android off of [Google Play](https://play.google.com/store/apps/details?id=io.github.tiagoshibata.gpsdclient) or [F-Droid](https://f-droid.org/packages/io.github.tiagoshibata.gpsdclient/)
 2. Open the app and set the IP address to the address of your pineapple. (Default is 172.16.42.1)
@@ -135,7 +135,7 @@ Follow the steps below to setup wardriving with an Android Phone.
 
 After you've donwloaded and setup the app. Connect your Android phone to the Pineapple via the management Wi-Fi.
 
-### Wardriving Script
+## Wardriving Script
 ---
 The following script assumes 2 things.
 
@@ -172,7 +172,6 @@ Copy this script to your Wifi Pineapple. After you've copied it over and your An
 `chmod +x <filename>` to make the script executable.
 
 `./<filename>` to run the script
-
 # Exfiltration
 
 Once you're done running the script 2 files will be generated in the `kismetlogs` folder on the pineapple.
@@ -191,7 +190,7 @@ MAC,SSID,AuthMode,FirstSeen,Channel,RSSI,CurrentLatitude,CurrentLongitude,Altitu
 ```
 
 You can further extract data from this file by writing a python script to parse the CSV and group the data.
-## Kismet UI
+# Kismet UI
 If you want to modify other settings in Kismet you can start the service by typing:
 ```bash
 kismet
