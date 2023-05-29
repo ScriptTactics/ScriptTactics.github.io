@@ -68,7 +68,7 @@ This tells gpsd the input source for GPS. If the command executes successfully t
 gpsmon
 ```
 
-TThen the output below should appear.
+Then the output below should appear.
 ```bash
 /dev/ttyACM0                  u-blox>
 ┌──────────────────────────┐┌─────────────────────────────────────────────────┐
