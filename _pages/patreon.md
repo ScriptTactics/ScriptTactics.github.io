@@ -1,5 +1,0 @@
----
-permalink: "/patreon"
-layout: single
----
-
