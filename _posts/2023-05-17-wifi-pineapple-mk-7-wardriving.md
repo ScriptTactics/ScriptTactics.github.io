@@ -198,3 +198,5 @@ kismet
 in the terminal
 
 Then navigate to `172.16.42.1:2501`.
+
+All the settings can be adjusted here.
