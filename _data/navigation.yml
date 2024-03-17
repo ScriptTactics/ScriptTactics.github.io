@@ -7,9 +7,6 @@ main:
 
   - title: "Contact"
     url: /contact
-
-  - title: "Store"
-    url: /patreon
     
   - title: "About"
     url: /about
