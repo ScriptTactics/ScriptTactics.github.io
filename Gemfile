@@ -10,7 +10,7 @@ source "https://rubygems.org"
 # gem "jekyll", "~> 3.9.3"
 
 # GitHub pages
-gem "github-pages", "~> 228", group: :jekyll_plugins
+gem "github-pages", "~> 231", group: :jekyll_plugins
 
 gem "minimal-mistakes-jekyll"
 

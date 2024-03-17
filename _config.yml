@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title_separator          : "|"
+title_separator          : " "
 subtitle                 : "Software for everyone" # site tagline that appears below site title in masthead
 name                     : "Script Tactics"
-description              : "Creating a more resilient and knowledgable world."
-url                      : "https://ScriptTactics.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "Script Tactics"
+url                      : "https://scripttactics.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ScriptTactics/ScriptTactics.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 logo                     : "/assets/images/logo_88x88.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
