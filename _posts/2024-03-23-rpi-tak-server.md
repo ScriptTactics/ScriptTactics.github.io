@@ -489,3 +489,10 @@ On the next window click the tab `Your Certificates`
 Next click import and search for your `webui-admin.p12` cert that was created in the [Create Admin UI Certificate](#create-admin-ui-certificate) steps.
 
 It will ask for a password. This password is the one you put in the `cert-metadata.sh` from the [Certificates](#certificates) step.
+
+
+## Access the UI
+
+From this point you should be able to navigate to the TAK Server's UI by going into your web browser and navigating to the IP address of the server.
+
+
