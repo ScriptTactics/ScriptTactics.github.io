@@ -2,8 +2,8 @@ main:
   - title: "Blog"
     url: /blog
     
-  # - title: "Services"
-  #   url: /services/
+  - title: "Shop"
+    url: https://script-tactics.square.site/
 
   - title: "Contact"
     url: /contact
