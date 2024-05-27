@@ -1,10 +1,10 @@
 main:
-  - title: "Blog"
-    url: /blog
-    
   - title: "Shop"
     url: https://script-tactics.square.site/
 
+  - title: "Blog"
+    url: /blog
+    
   - title: "Contact"
     url: /contact
     
